@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<head>
+    <title>Forms em HTML</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de Formulario HTML</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome:</label><br />
+            <input autocomplete="off" type="text" size="50" name="tNome" id="cNome" required="required"> </br>
+            <input type="submit" value="enviar"> </br>
+            <label for="cNome">Email:</label> </br>
+            <input type="email" id="email" required="required" /> </br>
+            <input type="submit" value="enviar" /> </br>
+            <p>Deixe seu comentário:</p>
+            <textarea nome="message" cols="30" rows="10"></textarea></br></br>
+            <label for="time">Selecione seu time:</label>
+            <select nome="Time" id="Time">
+                <option value="sao_paulo">São Paulo</option>
+                <option value="sao_paulo">Corinthians</option>
+                <option value="sao_paulo">Palmeiras</option>
+                <option value="sao_paulo">Flamengo</option>
+                <option value="sao_paulo">paysandu</option>
+            </select></br></br>
+        <label for="cCid">Escolha seu estado</label>
+        <input autocomplete="on" list="estado" nome="tCid" id="cCid"
+        <datalist id="estado">
+        <option value="sao_paulo">São Paulo</option>
+        <option value="sao_paulo">Bahia</option>
+        <option value="sao_paulo">Ceará</option>
+        <option value="sao_paulo">Rio de Janeiro</option>
+    </datalist>    
+          
+        </form>
+    
+    
+    
+    
+    
+    </article>
+    <footer>
+        <small>Instuto da Oportunida Social</small>
+
+    </footer>
+</body>
+
+</html>
