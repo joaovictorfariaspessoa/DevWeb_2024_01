@@ -5,17 +5,17 @@ section {
 }
 
 div {
-    margin: 5px;
-    width: 50px;
+    margin: 10px;
     height: 150px;
 }
 
 .esquerda {
-    float: left;
+    float: above;
     background: pink;
 }
 
 .direita {
-    float: right;
-    background: cyan;
+    float: below;
+    background: pink;
 }
+  
