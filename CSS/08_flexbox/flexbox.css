@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+background-color: yellow;
+border: 7px black;
+}
+.container {
+display: flex;
+flex-flow: row;
+justify-content: center;
+}
+.container >*{
+border: 4px black solid;
+padding: 15px;
+margin: 10px;
+text-align: center;
+border-radius: 9px;
+color: black;    
+}
+.container div
+{
+margin: 5;
+padding: 7;
+width: 400px;
+flex-shrink: 1;
+}
+

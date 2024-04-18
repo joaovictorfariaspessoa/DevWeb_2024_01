@@ -1,0 +1,14 @@
+@charset "utf-8";
+.warapper {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 1em;
+grid-auto-rows: minmax(100px; auto);
+}
+.warapper>div {
+background: #eee;
+padding: 1em;
+}
+
+
+
