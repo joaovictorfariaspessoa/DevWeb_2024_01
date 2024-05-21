@@ -1,0 +1,35 @@
+section1 {
+    border: 1px solid blue;
+    width: 100%;
+    float: left;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    box-sizing: content-box;
+}
+
+div {
+    margin: 20px;
+    height: 110px;
+}
+
+.esquerda {
+    float: above;
+    background: pink;
+}
+
+.direita {
+    float: below;
+    background: pink;
+}
+.section2 {
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+   }
+   .section3 {
+    width: 300px;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+   }
