@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="#" />
-    <link rel="stylesheet" href="./css/estilo.css" />
+    <link rel="stylesheet" href="atividade.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,13 +13,13 @@
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.0.0-beta3/css/all.min.css"
       integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Top 10 filmes favor</title>
   </head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-10">
       <form>
         <select id="product-select" class="form-control custom-select">
           <option value="0" disabled selected>Classificação de 1 a 10</option>
@@ -29,31 +29,32 @@
           <option value="Toystory2">Toy Story 2</option>
           <option value="Needforspeed">Need for Speed - O Filme</option>
           <option value="obichovaipegar1">O Bicho Vai Pegar 1</option>
-          <option value="Homemaranha1">Homem Aranha 1</option>
-          <option value="obichovaipegar1">O Bicho Vai Pegar 1</option>
-          
-
-
+          <option value="Homemaranha">O Espetacular Homem Aranha</option>
+          <option value="obichovaipegar2">O Bicho Vai Pegar 2</option>
+          <option value="Asaventurasdepi">As aventuras de pi</option>
+          <option value="Homearanhasemvoltapracasa">Homem Aranha: Sem volta para casa</option>
+          <option value="Shrek2">Shrek 2</option>
+    
         </select>
         <input
           type="number"
           id="rating-control"
           class="form-control"
           step="0.1"
-          max="5"
+          max="10"
           placeholder="Rate 1 - 10"
           disabled/>
       </form>
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>4K Television</th>
+            <th>Lista dos meus 10 filmes favoritos</th>
             <th>Rating</th>
           </tr>
         </thead>
         <tbody>
-          <tr class="sony">
-            <td>Sony 4k</td>
+          <tr class="Carros1">
+            <td>Carros 1</td>
             <td>
               <div class="stars-outer">
                 <div class="stars-inner"></div>
@@ -61,8 +62,8 @@
               <span class="number-rating"></span>
             </td>
           </tr>
-          <tr class="samsung">
-            <td>Samsung 4K TV</td>
+          <tr class="Carros3">
+            <td>Carros 3</td>
             <td>
               <div class="stars-outer">
                 <div class="stars-inner"></div>
@@ -70,8 +71,8 @@
               <span class="number-rating"></span>
             </td>
           </tr>
-          <tr class="tcl">
-            <td>TCL 4K TV</td>
+          <tr class="Bolt">
+            <td>Bolt - Supercão</td>
             <td>
               <div class="stars-outer">
                 <div class="stars-inner"></div>
@@ -79,8 +80,8 @@
               <span class="number-rating"></span>
             </td>
           </tr>
-          <tr class="panasonic">
-            <td>Panasonic 4K TV</td>
+          <tr class="Toystory2">
+            <td>Toy Story 2</td>
             <td>
               <div class="stars-outer">
                 <div class="stars-inner"></div>
@@ -88,8 +89,53 @@
               <span class="number-rating"></span>
             </td>
           </tr>
-          <tr class="phillips">
-            <td>Phillips 4K TV</td>
+          <tr class="Needforspeed">
+            <td>Needforspeed</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="obichovaipegar1">
+            <td>O Bicho Vai Pegar 1</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="Homemaranha1">
+            <td>O Espetacular Homem Aranha</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="Asaventurasdepi">
+            <td>As aventuras de Pi</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="Homearanhasemvoltapracasa">
+            <td>Home Aranha: Sem Volta Para Casa</td>
+            <td>
+              <div class="stars-outer">
+                <div class="stars-inner"></div>
+              </div>
+              <span class="number-rating"></span>
+            </td>
+          </tr>
+          <tr class="Shrek1">
+            <td>Shrek 1</td>
             <td>
               <div class="stars-outer">
                 <div class="stars-inner"></div>
@@ -100,6 +146,6 @@
         </tbody>
       </table>
     </div>
-    <script src="./js/script.js"></script>
+    <script src="atividade.js"></script>
   </body>
 </html>

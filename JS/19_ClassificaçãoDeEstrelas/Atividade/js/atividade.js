@@ -1,19 +1,20 @@
 // Classificação inicial
 const ratings = {
-    Carros1: 10,
-    Carros3: 8.5,
-    Bolt: 9.4,
-    Toystory2: 8.0,
-    Needforspeed: 7.5,
-    obichovaipegar1:7.0,
-    Homemaranha:6.9,
-    pi:6.5,
-    Homemaranhasemvoltapracasa:7.6,
-    Shrek1:7.0,
-    };
+    carros1: 4.7,
+    carros3: 3.4,
+    Bolt: 2.3,
+    Toystory2: 3.6,
+    Needforspeed: 4.1,
+    obichovaipegar1:4.2,
+    Homemaranha:4.0,
+    obichovaipegar2: 3.9,
+    Asaventurasdepi:3.8,
+    Homemaranhasemvoltapracasa:4.3,
+    Shrek2:4.7,
+};
     
     // Total de estrelas
-    const starsTotal = 10;
+    const starsTotal = 5;
     
     // Produto
     let product;
@@ -38,8 +39,8 @@ ratingControl.value = ratings[product];
 ratingControl.addEventListener('blur', (e) => {
     const rating = e.target.value;
     // Garante o valor máximo da classificação 5 estrelas
-    if (rating > 10) {
-    alert('Por favor, classififique entre 1 - 10');
+    if (rating > 5) {
+    alert('Por favor, classififique entre 1 - 5');
     return;
     }
     // Alteração da classidficação
