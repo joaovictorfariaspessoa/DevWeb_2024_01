@@ -1,35 +1,37 @@
-@charset "utf-8";
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 body {
- font-size: 1.3rem;
- font-family: 'Oswald', sans-serif;
- background: #f9f9f9;
+background-color: rgb(255, 255, 255);
 }
-a {
- color: #333;
- text-decoration: none;
-}
-.main-header {
-    height: 55vh;
-    padding: 2rem;
+header {
+    height: 150px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
-   }
-   .main-header h1 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    line-height: 1.2rem;
-   }
-   .main-header h1 span {
-    color: #b50d10;
-   }
-   .main-header p {
-    font-size: 2rem;
-   }
+    align-items: center;
+}
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 1vw;
+}
+.gallery-itens {
+    width: 340px;
+    height: 340px;
+}
+.gallery-itens img {
+    width: 100%;
+    height: 100%;
+}
+
+
